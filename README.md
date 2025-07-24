@@ -2,6 +2,17 @@
 
 This repository contains the code for the Eyego Internship Task, a web application built with Next.js. It includes a login system, a data table for product management, a chart for statistics, and a dashboard to integrate these components.
 
+## Implementation Approach
+
+This project was implemented using a modular and scalable approach with Next.js as the core framework. The application follows these key principles:
+
+- **Login System**: Built a RESTful API endpoint (`/api/login`) using Next.js API routes, with Zod for input validation to ensure secure and valid user credentials.
+- **Data Management**: Developed a `DataTable` component with CRUD functionality, integrating with a mock API (`fakestoreapi.com`) for product data, and using React state/hooks for dynamic updates.
+- **Visualization**: Implemented a `ChartComponent` using Chart.js to display product statistics, ensuring a responsive and interactive UI.
+- **Dashboard**: Designed a centralized `Dashboard` page to integrate all components, utilizing React Redux for state management and Tailwind CSS for a modern, responsive layout.
+
+The code is structured in a clean folder hierarchy, with components separated for reusability and API logic isolated for maintainability. Testing and iterative development were prioritized to ensure functionality and user experience.
+
 ## Table of Contents
 - [Features](#features)
 - [Prerequisites](#prerequisites)
